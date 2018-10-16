@@ -1,0 +1,28 @@
+@media screen and (max-width: 960px) {
+.t-cover__carrier.loaded {
+	filter: blur(1px);
+}
+.t-descr_sm {
+	color: black !important;
+	text-shadow: white 0 0 2px;
+}
+.t-title_xs {
+	text-shadow: white 0 0 2px;
+}
+.t391__img {
+	float: none !important;
+}
+.img_logo {
+	float: none !important;
+	margin-right: 10px !important;
+}
+}
+.img_logo {
+	width:80px;
+	float:left;
+	margin-right: 10px;
+}
+
+
+
+.t500__img{display:block;width:100%;box-sizing:border-box;padding:0 30px 0 30px}

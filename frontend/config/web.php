@@ -10,6 +10,9 @@ $config = [
             'shouldBeActivated' => false,
             'enableLoginByPass' => false,
         ],
+        'chat' => [
+            'class' => 'common\modules\chat\ChatModule',
+        ],
     ],
     'components' => [
         'authClientCollection' => [

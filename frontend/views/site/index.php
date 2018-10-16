@@ -2,15 +2,15 @@
 /* @var $this yii\web\View */
 $this->title = Yii::$app->name;
 ?>
-<div class="site-index">
+<div class="site-index" style="">
 
-    <?php echo \common\widgets\DbCarousel::widget([
-        'key' => 'index',
-        'assetManager' => Yii::$app->getAssetManager(),
-        'options' => [
-            'class' => 'slide', // enables slide effect
-        ],
-    ]) ?>
+<!--    --><?php //echo \common\widgets\DbCarousel::widget([
+//        'key' => 'index',
+//        'assetManager' => Yii::$app->getAssetManager(),
+//        'options' => [
+//            'class' => 'slide', // enables slide effect
+//        ],
+//    ]) ?>
 
     <div class="jumbotron">
         <h1>Congratulations!</h1>
